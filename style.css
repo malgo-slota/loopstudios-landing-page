@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+/* - Dark Gray: hsl(0, 0%, 55%)
+- Very Dark Gray: hsl(0, 0%, 41%) */
+
+*, *::before, *::after {
+    color: #000;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Alta', sans-serif;
+}
+
+li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+h1 {
+     font-family: 'Josefin Sans', sans-serif;
+}
+
+.nav-flex{
+    display: flex;
+    padding: 2em;
+    justify-content: space-between;
+}
+
+.nav-content {
+    left: -100vw;
+    height: 0;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 90% 10%;
+    transition: 0.7s linear;
+}
+
+.nav-content--visible {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    transition: 0.7s linear;
+}
+
+.logo--mobile-nav {
+    padding: 2em;
+}
+
+.close-btn {
+    padding: 2em 0;
+}
+
+.nav-links {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    line-height: 1.8em;
+    margin-left: 0.8em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero {
+    background: no-repeat center / cover url("images/mobile/image-hero.jpg");
+    height: 100vh;
+}
+
+.hero-title {
+    margin: 9em 2em; 
+    /* !! different way to center vertically */
+    border: 1px solid white;
+    text-transform: uppercase;
+}
+
+.hero-title > h1 {
+    color: #fff;
+    padding: 1em;
+    font-size: 3em;
+    line-height: 1.2em;
+    letter-spacing: 0.1em;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    align-items: center;
+}
+
+.footer-nav {
+    color: #fff;
+    text-align: center;
+}
+
+.sm-icons {
+    display: flex;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color:white;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+
