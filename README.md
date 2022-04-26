@@ -34,6 +34,13 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
+### To do
+
+This project is in construction state, further plans contain:
+
+- desktop responsive view
+- refactor CSS code, i.e. by using SASS (variables)
+
 ### What I learned
 
 I builded this project to recap and to settle what I've learnt.
