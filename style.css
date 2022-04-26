@@ -203,6 +203,36 @@ footer {
     color: hsl(228, 45%, 44%); 
 }
 
-@media (min-width: 375px)  {
+@media (min-width: 600px)  {
 
+    .nav-content {
+        display: flex;
+        justify-content: space-between;
+        height: auto;
+        left: 0;
+        width: 100vw;
+        transition: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .nav-links {
+        font-size: 1em;
+        display: flex;
+        gap: 2.2em;
+        justify-content: space-around;
+        text-transform: capitalize;
+        align-items: center;
+        padding: 0 2.2em;   
+    }
+
+    .close-btn {
+        display: none;
+    }
+
+    .nav-toggle {
+        display: none;
+    }
 }
